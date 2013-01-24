@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/* -------------------------------------------------------------------
+body
+ ------------------------------------------------------------------- */
+body {
+    /* background: url(images/back2.jpg); */
+}
+a:link {
+    color: #666;
+}
+a:visited {
+    color: #666;
+}
+a:hover {
+    color: #666;
+}
+a:active {
+    color: #666;
+}
+
+li {
+    width: 100px;
+    margin-bottom: 5px;
+    background: #EEE;
+}
+
+#drophere {
+    width: 300px;
+    height: 300px;
+    border: 3px dotted #EEE;
+}
+
+/* -------------------------------------------------------------------
+clearfix
+ ------------------------------------------------------------------- */
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.clearfix {
+display: inline-table;
+min-height: 1%;
+}
+/* Hides from -mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from -mac */
